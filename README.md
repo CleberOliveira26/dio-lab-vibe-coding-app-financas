@@ -1,72 +1,88 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+### Pitch do Projeto: QR Codes para Móveis Reciclados
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+Resumo  
+O projeto consiste em um aplicativo que gera QR codes personalizados para móveis reciclados. Cada peça recebe um código único que conecta o consumidor a informações detalhadas sobre sua origem e processo de produção.
 
-## ✨ O que é Vibe Coding
+Problema  
+Consumidores têm pouca visibilidade sobre a procedência dos móveis reciclados e não conseguem valorizar plenamente o impacto sustentável dessas peças.
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+Solução  
+Um app que cria QR codes vinculados a páginas informativas, permitindo que cada móvel conte sua história. O código pode incluir ficha técnica, fotos, vídeos e instruções de manutenção.
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+Funcionalidades  
+- Geração automática de QR codes.  
+- Personalização visual dos códigos.  
+- Página vinculada com informações completas da peça.  
+- Recursos de engajamento, como gamificação.  
 
-## 🎯 Desafio
+Impacto  
+O projeto aumenta a transparência, valoriza o trabalho de reciclagem e incentiva o consumo consciente.
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+PRD (Product Requeriments Document) – App de QR Codes para Móveis Reciclados
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+Visão Geral
+Um app que transforma móveis reciclados em histórias digitais.
+Cada móvel recebe um QR único que libera fotos, vídeos, áudios e legendas na nuvem, mostrando o processo de restauração.
+Além disso, o app gera QR codes prontos para compartilhar nas redes sociais (WhatsApp, Facebook, Instagram), ampliando a divulgação e valorizando o trabalho dos recicladores.
 
-## 🪄 Etapas do Desafio
+Problema
+Consumidores não sabem:
+- Como o móvel foi restaurado.
+- Se o processo seguiu normas ambientais.
+- Qual o impacto positivo da reciclagem.
+Isso gera desconfiança e reduz o valor percebido.
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+Público-Alvo
+- Consumidores conscientes que valorizam sustentabilidade.
+- Recicladores, marceneiros e toda a cadeia de reaproveitamento.
+- Pequenos negócios que querem agregar valor e transparência.
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+Funcionalidades-Chave (MVP)
+1. Cadastro de móveis → nome, descrição e categoria.
+2. Upload de mídia → fotos, vídeos, áudios e legendas do processo.
+3. QR code único → cada móvel recebe um link exclusivo.
+4. Interface simples (web + mobile) → painel para restaurador e página de histórico para consumidor.
+5. Compartilhamento em redes sociais → QR codes prontos para WhatsApp, Facebook, Instagram e outras redes.
+   - Restauradores divulgam seus trabalhos.
+   - Compradores compartilham móveis adquiridos e o impacto socioambiental.
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+Fluxos de Uso
+- Restaurador → cadastra móvel, sobe mídia, gera QR e compartilha direto nas redes.
+- Comprador → escaneia QR, acessa histórico e compartilha com amigos.
+- Impacto → mais visibilidade, engajamento comunitário e valorização da reciclagem.
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+Entregável da IA (Lovable)
+- MVP funcional com:
+  - Cadastro de móveis.
+  - Upload básico de mídia.
+  - Geração automática de QR code.
+  - Página de histórico acessível via QR.
+  - Integração com redes sociais para compartilhamento.
+- Linguagem acessível, tom socioambiental simples.
+- Estrutura escalável para novas mídias e móveis.
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+Validação Inicial
+- Testar com 3 a 5 móveis reciclados.
+- Consumidores escaneiam QR e acessam histórico.
+- Testar compartilhamento em redes sociais para medir alcance.
+- Feedback sobre clareza, usabilidade e impacto socioambiental.
+- Ajustar antes de escalar.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Vibe Coding
+- Menos burocracia, mais ação: validar rápido.
+- Código como narrativa: cada móvel conta sua história via QR.
+- Socioambiental na prática: tecnologia simples que gera confiança e valor.
+- Compartilhamento como impacto: cada QR divulgado nas redes amplia a consciência ambiental e fortalece a comunidade.
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
-```
+O meu APP gerador de QR codes, como o próprio nome diz: Cria QRs conectando o comprador do móvel reciclado ao processo através de vídeos e fotos mostrando o Antes, Durante e Depois de todo o processo de restauração. Dados esses que ficam armazenaos na nuvem sendo acessado pelo o consumidor que tem apenas acesso ao seu móvel adiquirido. Já o restaraudor tem os dados (com login) de todo o seu trabalho e mais opçõe de cadastrar outras restaurações que se faça em futuros móveis. Com a divulgação desse app (ReciQR) estaremos fortalecendo a Comunidade dos Recicladore e Restauradores e aumentando o consumo pelos os produtos reciclados gerando conscientização ambiental. Além do APP GERA QR Codes ele também tem a opção de compartilhar a sua mídia pelas principais Redes Sociais.
+Na execução do APP tive problema de compartilhamento< mas que está sendo resolvido aos poucos devido a gente ter pouca interação no LOVABLE.
+O COPILOT ajudou muito em todas as etapas até entregarmos ao LOVABLE.
+A IA é uma mão na roda, comprende em muito o que a gente pretende, o LOVABLE as vezes não entrega o que realmente pedimos, mas com paciência, no final< você extrai muita coisa.
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+Valeu e obrigado por tudo.
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
-
-### 2. Explorando o Lovable na Prática
-
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
-
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
-
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
 
 ### 3. Entregando o Desafio na DIO
 
